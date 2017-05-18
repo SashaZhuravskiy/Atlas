@@ -15,7 +15,7 @@ public class Country {
         this.capital = translate;
         this.id = id;
     }
-    //привет
+    //привет Женя
     public String GetCountry(){return country;}
     public String GetCapital(){return capital;}
     public long getId() { return id;}
