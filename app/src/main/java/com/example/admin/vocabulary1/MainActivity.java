@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_slideshow: ftrans.replace(R.id.container,ftest);break;
             case R.id.nav_share:    ftrans.replace(R.id.container,fmain);
                                     database.delete(dbHelper.TABLE_COUNTRY,null,null);break;
-            case R.id.map:    ftrans.replace(R.id.container,fmap);
+          //  case R.id.map:    ftrans.replace(R.id.container,fmap);
         }
         ftrans.commit();
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
